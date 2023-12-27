@@ -1,0 +1,83 @@
+.body{
+    display: flex;
+    
+}
+.izquierda{
+    width: 30%;
+    background-color: rgb(122, 220, 113);
+    padding: 2.5%;
+    text-align: center;
+}
+.imagen{
+    border-radius: 100%;
+    margin-left: 20%;
+    margin-right: 50%;
+}
+.izquierda{
+    text-align: center;
+}
+.derecha{
+    width: 70%;
+    padding-left: 2,5%;
+    justify-content: center;
+    margin-top: 2%;
+}
+h1, h5, h6, p {
+    text-align: center;
+}
+h1 {
+    margin-bottom: 30px;
+}
+h5, h6 {
+    margin: 30px auto ;
+    max-width: 200px;
+    border: 1px solid #BFBFBF;
+  background-color: white;
+  box-shadow: 10px 10px 5px #aaaaaa;  
+}
+
+.listaIzquierda{
+    display: flex;
+    justify-content: space-between;
+}
+.trabajos{
+    width: 50%;
+    text-align: left;
+    padding-left: 2,5%;
+}
+ul{
+    list-style: none;
+}
+.listaDerecha{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2,5%;
+}
+.derecha{
+    padding-left: 2,5%;
+}
+.main{
+    margin: 10px;
+}
+@media (max-width: 700px){
+    .body {
+        font-size: 15px;
+    }
+    .imagen {
+    max-width: 95px;
+}
+    .datos{
+        font-size: 13px;
+    }
+}
+@media (max-width: 600px){
+    .body {
+        font-size: 13px;
+    }
+    .imagen {
+    max-width: 95px;
+}
+    .datos{
+        font-size: 13px;
+    }
+}
