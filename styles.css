@@ -79,4 +79,8 @@
             font-size: 0.8rem;
             color: #ccc;
             word-break: break-all;
-}
+        }
+
+        p {
+          margin-bottom: 8px;
+        }
