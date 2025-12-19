@@ -20,14 +20,23 @@
 
         .derecha {
             width: 70%;
-            padding: 40px;
+            padding: 40px   50px;
         }
 
         .derecha h2 {
-            margin-top: 20px;
+            margin-top: 25px;
             margin-bottom: 10px;
         }
+ 
+        .derecha h3 {
+           margin-top: 15px;
+           margin-bottom: 5px;
+        }
 
+        .derecha p {
+            margin-bottom: 8px;
+            line-height: 1.4;
+        }
 
         .perfil {
             text-align: center;
