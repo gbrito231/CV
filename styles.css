@@ -71,5 +71,12 @@
           margin-bottom: 4px;
         }
         .proyecto-titulo {
-    margin-top: 30px;
-    margin-bottom: 10px;}   
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
+        
+        .cv-link {
+            font-size: 0.8rem;
+            color: #ccc;
+            word-break: break-all;
+}
